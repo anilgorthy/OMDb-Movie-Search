@@ -15,7 +15,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class OMDbRepository {
     private static final String TAG = OMDbRepository.class.getSimpleName();
     private final OMDbEndpoint omdbEndpoint;
-    private static final String BASE_URL = "http://www.omdbapi.com/";
+    private static final String BASE_URL = "https://www.omdbapi.com/";
 
     /**
      * Constructor that also initializes the networking library

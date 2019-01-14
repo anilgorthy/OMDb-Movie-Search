@@ -21,6 +21,7 @@ OMDb Search App
 1. OMDb endpoint appears to only return **10** results in a single API call and in order to get the next set of 10 results, you will need to add "page=2" as a query parameter, however, for the sake of this demo, I didn't enable pagination in the app 
 1. The `Poster` URL may sometimes return **"N/A"** as opposed to a URL string so, I'm loading a placeholder image when the URL is not present
 	* I did not look into other scenarios where the URL is not returned as expected
+1. The demo app doesn't process the error status response returned by the API to display to the user
 
 ### Unit Tests
 1. Ensured unit tests are written for **Presenter** which can be executed on the JVM
