@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OMDbSearchDemo</string>
+    <string name="enter_search_keyword">Search Movie Titles</string>
+    <string name="search_error_message">Unable to display results, try a different search term or try again</string>
+</resources>
