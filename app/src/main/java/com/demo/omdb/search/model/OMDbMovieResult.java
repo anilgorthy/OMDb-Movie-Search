@@ -17,6 +17,12 @@ public class OMDbMovieResult {
     @SerializedName("Poster")
     @Expose
     private String posterURL;
+    @SerializedName("Response")
+    @Expose
+    private boolean response;
+    @SerializedName("Error")
+    @Expose
+    private String errorMessage;
 
     public String getTitle() {
         return title;
@@ -28,5 +34,13 @@ public class OMDbMovieResult {
 
     public String getPosterURL() {
         return posterURL;
+    }
+
+    public boolean isResponse() {
+        return response;
+    }
+
+    public String getErrorMessage() {
+        return errorMessage;
     }
 }
