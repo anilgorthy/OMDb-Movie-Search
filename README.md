@@ -11,6 +11,7 @@ OMDb Search App
 
 ### App Notes
 1. The OMDb Search app fetches movie title results from [OMDb API](http://www.omdbapi.com/)
+    * for example: https://www.omdbapi.com/?apikey=c5661008&s=david
 2. The app is built using the **Model-View-Presenter (MVP)** architecture where the core idea is a testable architecture by separating the application into various parts thus making the application easier to maintain and test individually
 1. The app takes the approach of **package by layer** 
 1. In the MVP architecture, the **View** (Activity) communicates with the **Presenter** for handling user interactions and the **Presenter** communicates with the **Model** to fetch the data from the APIs and present it back to the **View**
